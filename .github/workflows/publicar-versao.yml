@@ -1,0 +1,27 @@
+name: Publicar versão
+on:
+  push:
+    branches: ['release-*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Montar o instalador (enviado em partes por causa do limite de 100 MB do Git)
+        run: |
+          VER=$(grep '^version:' files/latest.yml | awk '{print $2}')
+          cat files/SUNANDO-Setup-$VER.exe.part* > files/SUNANDO-Setup-$VER.exe
+          EXPECT=$(grep '^sha512:' files/latest.yml | awk '{print $2}')
+          GOT=$(openssl dgst -sha512 -binary files/SUNANDO-Setup-$VER.exe | base64 -w0)
+          test "$EXPECT" = "$GOT" || { echo "sha512 não confere"; exit 1; }
+          echo "VER=$VER" >> "$GITHUB_ENV"
+      - name: Criar a versão com o instalador
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release delete "v$VER" --repo "$GITHUB_REPOSITORY" --yes --cleanup-tag || true
+          gh release create "v$VER" --repo "$GITHUB_REPOSITORY" --target main \
+            --title "SUNANDO $VER" --notes-file files/NOTES.md \
+            files/latest.yml files/SUNANDO-Setup-$VER.exe files/SUNANDO-Setup-$VER.exe.blockmap
