@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "packVersion": "2026.10.24",
+  "updated": "2026-10-24",
+  "minApp": "1.5.0",
+  "latestModel": "v6",
+  "defaultModel": "v6",
+  "recommend": { "precision": "v6", "creative": "v6", "experimental": "v6-wild" },
+  "models": [
+    { "id": "v6", "name": "v6", "plan": "Pro / Premier", "use": "Finished songs when you know what you want. Most literal reading of the style field.", "variety": "0–20 for precision" },
+    { "id": "v6-wild", "name": "v6-wild", "plan": "Pro / Premier", "use": "Ideation, genre-blending, unexpected texture. Expect results further from the prompt.", "variety": "40–70" },
+    { "id": "v6-mini", "name": "v6-mini", "plan": "All plans", "use": "Fast sketches and high-volume exploration before committing credits on v6.", "variety": "any" }
+  ],
+  "sources": {},
+  "facts": [],
+  "tags": [],
+  "techniques": [],
+  "news": [
+    { "date": "2026-10-24", "title": "Pacote de conhecimento inicial", "text": "Base do SUNANDO alinhada à família v6 do Suno (v6, v6-wild e v6-mini)." }
+  ]
+}

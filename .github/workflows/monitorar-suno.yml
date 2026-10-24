@@ -1,0 +1,40 @@
+name: Monitorar novidades do Suno
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: monitor-suno
+  cancel-in-progress: false
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Ler as páginas oficiais do Suno
+        run: node scripts/monitorar-suno.mjs
+      - name: Guardar o feed atualizado
+        run: |
+          git config user.name "SUNANDO monitor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add knowledge/suno-feed.json
+          if git diff --cached --quiet; then echo "Sem mudanças no feed."; else git commit -m "Feed do Suno atualizado" && git push; fi
+      - name: Avisar quando surgir uma versão nova do Suno
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          NEWER=$(node -e "console.log(require('./monitor-result.json').newer.join(' '))")
+          if [ -z "$NEWER" ]; then exit 0; fi
+          for V in $NEWER; do
+            TITLE="Suno lançou o $V: atualizar o conhecimento do SUNANDO"
+            if gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "\"$TITLE\" in:title" --json number --jq 'length' | grep -q '^0$'; then
+              node -e "const r=require('./monitor-result.json');const l=r.freshItems.map(i=>'- ['+i.title+']('+i.url+')').join('\n');require('fs').writeFileSync('issue.md','O monitor encontrou menções ao **$V** nas páginas oficiais do Suno.\n\nOs apps já mostram a novidade em Pesquisa > Novidades do Suno. Para o SUNANDO usar os modelos, tags e técnicas novas, atualize knowledge/suno-pack.json (latestModel, models, recommend, tags, techniques). Os apps instalados baixam o pacote sozinhos, sem reinstalar.\n\nItens novos encontrados:\n'+(l||'- (veja knowledge/suno-feed.json)'))"
+              gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --body-file issue.md
+            fi
+          done
