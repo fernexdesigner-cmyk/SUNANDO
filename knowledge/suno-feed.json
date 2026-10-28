@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-28T13:00:13.374Z",
+  "checked": "2026-10-28T18:55:11.315Z",
   "sources": [
     {
       "id": "release-notes",
@@ -27,6 +27,12 @@
     }
   ],
   "items": [
+    {
+      "url": "https://suno.com/release-notes/suno-mcp-beta",
+      "title": "Suno MCP (beta)",
+      "source": "release-notes",
+      "firstSeen": "2026-10-28"
+    },
     {
       "url": "https://suno.com/release-notes/suno-on-ios-update",
       "title": "Updates for Suno on iOS",
