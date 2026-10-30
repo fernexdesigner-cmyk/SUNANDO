@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-29T18:57:20.193Z",
+  "checked": "2026-10-30T01:03:49.527Z",
   "sources": [
     {
       "id": "release-notes",
@@ -27,6 +27,18 @@
     }
   ],
   "items": [
+    {
+      "url": "https://help.suno.com/en/articles/14557377",
+      "title": "",
+      "source": "help",
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "url": "https://help.suno.com/en/articles/14557569",
+      "title": "",
+      "source": "help",
+      "firstSeen": "2026-10-30"
+    },
     {
       "url": "https://suno.com/release-notes/rss.xml",
       "title": "Rss.xml",
