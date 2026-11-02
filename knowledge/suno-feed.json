@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-02T13:13:43.981Z",
+  "checked": "2026-11-02T18:59:44.984Z",
   "sources": [
     {
       "id": "release-notes",
@@ -27,6 +27,18 @@
     }
   ],
   "items": [
+    {
+      "url": "https://suno.com/blog/studio-chat-assistant",
+      "title": "Meet Chat: Our In-house Studio Assistant",
+      "source": "blog",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "url": "https://suno.com/blog/studio-chat-assistant\\",
+      "title": "Studio chat assistant\\",
+      "source": "blog",
+      "firstSeen": "2026-11-02"
+    },
     {
       "url": "https://help.suno.com/en/articles/14557377",
       "title": "",
