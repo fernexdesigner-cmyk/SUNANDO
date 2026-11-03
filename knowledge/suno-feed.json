@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-03T13:08:11.777Z",
+  "checked": "2026-11-03T18:58:43.592Z",
   "sources": [
     {
       "id": "release-notes",
@@ -28,8 +28,50 @@
   ],
   "items": [
     {
+      "url": "https://suno.com/blog/category/spotlights",
+      "title": "Spotlights",
+      "source": "blog",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "url": "https://suno.com/blog/all",
+      "title": "All posts",
+      "source": "blog",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "url": "https://suno.com/blog/category/product-updates",
+      "title": "Product updates",
+      "source": "blog",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "url": "https://suno.com/blog/category/announcements",
+      "title": "Announcements",
+      "source": "blog",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "url": "https://suno.com/blog/category/partnerships",
+      "title": "Partnerships",
+      "source": "blog",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "url": "https://suno.com/blog/category/essays",
+      "title": "Essays",
+      "source": "blog",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "url": "https://suno.com/blog/category/resources",
+      "title": "Resources",
+      "source": "blog",
+      "firstSeen": "2026-11-03"
+    },
+    {
       "url": "https://suno.com/blog/studio-chat-assistant",
-      "title": "Meet Chat: Our In-house Studio Assistant",
+      "title": "Product updates Meet Chat: Our In-house Studio Assistant",
       "source": "blog",
       "firstSeen": "2026-11-02"
     },
@@ -1307,301 +1349,301 @@
     },
     {
       "url": "https://suno.com/blog/introducing-v6",
-      "title": "Introducing v6",
+      "title": "Product updates Introducing v6",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/about-sidechaining",
-      "title": "Sidechaining Makes Your Music Pump",
+      "title": "Resources Sidechaining Makes Your Music Pump",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/albums-to-discover",
-      "title": "5 Albums You Can't Miss",
+      "title": "Spotlights 5 Albums You Can't Miss",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/introducing-speech-beta",
-      "title": "Introducing Speech (beta)",
+      "title": "Product updates Introducing Speech (beta)",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/about-eq",
-      "title": "Three Must-learn Tips for Using EQ",
+      "title": "Resources Three Must-learn Tips for Using EQ",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/about-compression",
-      "title": "What Does a Compressor Actually Do?",
+      "title": "Resources What Does a Compressor Actually Do?",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/believe-partnership",
-      "title": "A New Partnership with Believe and TuneCore",
+      "title": "Partnerships A New Partnership with Believe and TuneCore",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/tips-for-complete-profile",
-      "title": "Your music deserves a face",
+      "title": "Resources Your music deserves a face",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/studio-2",
-      "title": "Introducing Studio 2.0",
+      "title": "Product updates Introducing Studio 2.0",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/suno-partnership-bmg",
-      "title": "Announcing a Landmark Global Partnership with BMG",
+      "title": "Partnerships Announcing a Landmark Global Partnership with BMG",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/suno-updates-tos",
-      "title": "An update to our downloads policy and Terms of Service",
+      "title": "Announcements An update to our downloads policy and Terms of Service",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/building-the-future-of-music-responsibly",
-      "title": "How We're Building the Future of Music Responsibly",
+      "title": "Essays How We're Building the Future of Music Responsibly",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/how-to-make-short-form",
-      "title": "How to make short-form content for your songs",
+      "title": "Resources How to make short-form content for your songs",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/tips-for-publishing",
-      "title": "Hit Publish. Here’s why.",
+      "title": "Resources Hit Publish. Here’s why.",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/sad-alex",
-      "title": "sad alex on songwriting, short-form, and creative autonomy",
+      "title": "Spotlights sad alex on songwriting, short-form, and creative autonomy",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/dream-relic",
-      "title": "How Dream Relic sees sound and gets it stuck in your head",
+      "title": "Spotlights How Dream Relic sees sound and gets it stuck in your head",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/matt-steffanina",
-      "title": "Matt Steffanina on owning the music behind the movement",
+      "title": "Spotlights Matt Steffanina on owning the music behind the movement",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/eric-christian",
-      "title": "Eric Christian on hearing the orchestra inside a melody",
+      "title": "Spotlights Eric Christian on hearing the orchestra inside a melody",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/introducing-spark",
-      "title": "Introducing Spark: Supporting the Next Generation of Independent Artists",
+      "title": "Announcements Introducing Spark: Supporting the Next Generation of Independent Artists",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/stem-separation-updates",
-      "title": "We’ve made improvements to Stem Separation",
+      "title": "Product updates We’ve made improvements to Stem Separation",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/6-tips-for-voices",
-      "title": "Your Voice, Reimagined",
+      "title": "Resources Your Voice, Reimagined",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/series-d-announcement",
-      "title": "The Next Chapter for Suno",
+      "title": "Announcements The Next Chapter for Suno",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/v5-5",
-      "title": "Suno v5.5: More Expressive. More You.",
+      "title": "Product updates Suno v5.5: More Expressive. More You.",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/studio1_2",
-      "title": "What's New in Suno Studio 1.2",
+      "title": "Product updates What's New in Suno Studio 1.2",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/wmg-partnership",
-      "title": "A new chapter in music creation",
+      "title": "Partnerships A new chapter in music creation",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/series-c-announcement",
-      "title": "The Future of Music is Already Here",
+      "title": "Announcements The Future of Music is Already Here",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/suno-studio",
-      "title": "Introducing Suno Studio",
+      "title": "Product updates Introducing Suno Studio",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/songs-of-love-suno",
-      "title": "Songs of Love Foundation",
+      "title": "Partnerships Songs of Love Foundation",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/welcome-paul",
-      "title": "Welcome Paul",
+      "title": "Announcements Welcome Paul",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/suno-acquires-wavtool",
-      "title": "Suno Acquires WavTool",
+      "title": "Announcements Suno Acquires WavTool",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/songeditor",
-      "title": "A New Level of Creative Control",
+      "title": "Product updates A New Level of Creative Control",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/introducing-v4-5",
-      "title": "Introducing v4.5",
+      "title": "Product updates Introducing v4.5",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/android",
-      "title": "Android, meet Suno",
+      "title": "Product updates Android, meet Suno",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/v4",
-      "title": "Introducing v4",
+      "title": "Product updates Introducing v4",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/welcome-jack",
-      "title": "Welcome Jack",
+      "title": "Announcements Welcome Jack",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/personas",
-      "title": "Introducing Personas",
+      "title": "Product updates Introducing Personas",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/suno-partners-with-audible-magic",
-      "title": "Suno Partners with Audible Magic",
+      "title": "Partnerships Suno Partners with Audible Magic",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/introducing-suno-scenes",
-      "title": "Introducing Suno Scenes",
+      "title": "Product updates Introducing Suno Scenes",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/suno-students",
-      "title": "Introducing Sunoversity",
+      "title": "Announcements Introducing Sunoversity",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/covers",
-      "title": "Introducing Covers",
+      "title": "Product updates Introducing Covers",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/floss",
-      "title": "Suno Remix Contest (feat. Flosstradamus)",
+      "title": "Announcements Suno Remix Contest (feat. Flosstradamus)",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/community",
-      "title": "Summer of Suno, Vol. 2 Winners",
+      "title": "Announcements Summer of Suno, Vol. 2 Winners",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/future-of-music",
-      "title": "The Future of Music",
+      "title": "Essays The Future of Music",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/sos-vol-2",
-      "title": "The Summer of Suno, Vol. 2",
+      "title": "Announcements The Summer of Suno, Vol. 2",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/suno-for-mobile",
-      "title": "Introducing Suno for Mobile",
+      "title": "Product updates Introducing Suno for Mobile",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/audio-inputs",
-      "title": "Audio Inputs",
+      "title": "Product updates Audio Inputs",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/sos-vol-1",
-      "title": "The Summer of Suno, Vol. 1",
+      "title": "Announcements The Summer of Suno, Vol. 1",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/fundraising-announcement-may-2024",
-      "title": "Suno has raised $125 million",
+      "title": "Announcements Suno has raised $125 million",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/v3",
-      "title": "Introducing v3",
+      "title": "Product updates Introducing v3",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
     {
       "url": "https://suno.com/blog/v-day",
-      "title": "Introducing the Suno Valentine's Day Experience",
+      "title": "Product updates Introducing the Suno Valentine's Day Experience",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
