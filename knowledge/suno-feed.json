@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-13T13:14:30.388Z",
+  "checked": "2026-11-13T18:58:41.529Z",
   "sources": [
     {
       "id": "release-notes",
@@ -27,6 +27,18 @@
     }
   ],
   "items": [
+    {
+      "url": "https://suno.com/blog/introducing-bridge",
+      "title": "Product updates Suno Bridge: Your DAW, Suno-powered.",
+      "source": "blog",
+      "firstSeen": "2026-11-13"
+    },
+    {
+      "url": "https://suno.com/blog/introducing-bridge\\",
+      "title": "Introducing bridge\\",
+      "source": "blog",
+      "firstSeen": "2026-11-13"
+    },
     {
       "url": "https://suno.com/release-notes/make-a-song-every-day",
       "title": "Daily Song Challenge",
