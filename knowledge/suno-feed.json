@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-17T13:16:00.445Z",
+  "checked": "2026-11-17T19:08:02.102Z",
   "sources": [
     {
       "id": "release-notes",
@@ -27,6 +27,30 @@
     }
   ],
   "items": [
+    {
+      "url": "https://suno.com/release-notes/visuals",
+      "title": "Introducing Visuals",
+      "source": "release-notes",
+      "firstSeen": "2026-11-17"
+    },
+    {
+      "url": "https://suno.com/release-notes/visuals\\",
+      "title": "Visuals\\",
+      "source": "release-notes",
+      "firstSeen": "2026-11-17"
+    },
+    {
+      "url": "https://suno.com/blog/introducing-visuals",
+      "title": "Introducing Visuals",
+      "source": "blog",
+      "firstSeen": "2026-11-17"
+    },
+    {
+      "url": "https://suno.com/blog/introducing-visuals\\",
+      "title": "Introducing visuals\\",
+      "source": "blog",
+      "firstSeen": "2026-11-17"
+    },
     {
       "url": "https://suno.com/blog/introducing-bridge",
       "title": "Product updates Suno Bridge: Your DAW, Suno-powered.",
@@ -1379,7 +1403,7 @@
     },
     {
       "url": "https://suno.com/blog/behind-the-scenes-make-what-moves-you",
-      "title": "Behind the Scenes: Make what moves you",
+      "title": "Spotlights Behind the Scenes: Make what moves you",
       "source": "blog",
       "firstSeen": "2026-10-24"
     },
