@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-23T07:31:49.944Z",
+  "checked": "2026-11-23T23:50:16.499Z",
   "sources": [
     {
       "id": "release-notes",
@@ -27,6 +27,12 @@
     }
   ],
   "items": [
+    {
+      "url": "https://help.suno.com/en/articles/14878337",
+      "title": "",
+      "source": "help",
+      "firstSeen": "2026-11-23"
+    },
     {
       "url": "https://suno.com/release-notes/visuals",
       "title": "Introducing Visuals",
